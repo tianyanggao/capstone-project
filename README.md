@@ -1,8 +1,10 @@
 # capstone-project skills assessment preparation
 Synopsis
+
 This project aims to build a file upload server using node.js that allow user to upload images and response with the link to access the image.The two objectives are followed:
 1.allowing using to upload single image 
 2.allowing user to uoload a zip file and get a list of images URL.
+
 Code Example
 two main module are required.They are formidable and decompress-zip
 formidable module is a very good module for working with file uploads
@@ -25,4 +27,5 @@ unzipper.extract({
       	        return file.type !== "SymbolicLink";
       	    }
       	});
+        
  Motivation
