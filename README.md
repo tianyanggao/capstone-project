@@ -7,7 +7,8 @@ This project aims to build a file upload server using node.js that allow user to
 2.allowing user to uoload a zip file and get a list of images URL.
 
 # Code Example
-two main module are required.They are formidable and decompress-zip
+Two main module are required.They are formidable and decompress-zip.
+
 formidable module is a very good module for working with file uploads
 
 var http = require('http');
@@ -22,6 +23,7 @@ http.createServer(function (req, res) {
 }).listen(8080);
 
 The decompress-zip is used to extracts the contents of the ZIP archive file
+
 unzipper.extract({
       	    path: 'files/',
       	    filter: function (file) {
