@@ -1,4 +1,4 @@
-# capstone-project skills assessment preparation
+# Capstone-project skills assessment preparation
 # Synopsis
 
 This project aims to build a file upload server using node.js that allow user to upload images and response with the link to access the image.The two objectives are followed:
@@ -32,3 +32,7 @@ unzipper.extract({
       	});
         
  # Motivation
+The purrpose of setting this project is to test the skills of team members.
+
+# Installation
+The project is run on eclipse within a javasript project.
