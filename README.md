@@ -1,2 +1,2 @@
-# capstone-project
-skills assessment preparation
+# capstone-project skills assessment preparation
+Synopsis
